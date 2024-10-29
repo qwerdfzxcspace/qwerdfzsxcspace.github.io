@@ -1,7 +1,26 @@
-h1 {
-color : blue;
+.title {
+color : blueviolet;
 }
 
 body {
     background-color: aqua;
+}
+
+button {
+    background-color: blue;
+    transition: .3s ease all;
+}
+
+button:hover {
+    background-color: blueviolet;
+    transition: .3s ease all;
+    transform: translateY(-5px);
+}
+
+a {
+background-color: aquamarine;
+
+padding: 1px 5px 2px 5px;
+margin: 1px 1px 1px 100px;
+border: 1px solid black;
 }
